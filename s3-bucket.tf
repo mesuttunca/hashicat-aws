@@ -3,8 +3,7 @@ module "s3_bucket" {
   version = "2.2.0"
 
   acceleration_status = "Enabled"
-  bucket = "Gaurav"
-  bucket_prefix = "mesut"
+  bucket = "Gauravmesuttunca"
   policy = ""
-  request_payer = "mesuttunca"
+  request_payer = "BucketOwner"
 }
