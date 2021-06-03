@@ -6,5 +6,5 @@ module "s3_bucket" {
   bucket = "Gaurav"
   bucket_prefix = "mesut"
   policy = ""
-  request_payer = ""
+  request_payer = "mesuttunca"
 }
